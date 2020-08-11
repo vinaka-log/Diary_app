@@ -7,3 +7,9 @@ class Blog:
         self.title = input()
         print(“本文を入力してください”)
         self.contents = input()
+    
+    def show_blog(self):
+        line = "\n---------------------------"
+        print(“日付 : " + self.date + line)
+        print("タイトル : " + self.title + line)
+        print(“本文 : " + self.contents + line)
