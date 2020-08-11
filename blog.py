@@ -13,3 +13,7 @@ class Blog:
         print(“日付 : " + self.date + line)
         print("タイトル : " + self.title + line)
         print(“本文 : " + self.contents + line)
+
+    blog = Blog()
+    blog.write_blog()
+    blog.show_blog()
